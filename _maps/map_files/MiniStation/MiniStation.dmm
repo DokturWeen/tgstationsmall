@@ -882,11 +882,6 @@
 /turf/open/floor/engine,
 /area/station/science/xenobiology)
 "ch" = (
-/obj/machinery/requests_console/directional/west{
-	department = "Chapel"
-	},
-/obj/effect/turf_decal/tile/brown/opposingcorners,
-/turf/open/floor/iron,
 /area/station/cargo/miningdock)
 "ci" = (
 /obj/structure/bed,
@@ -2978,11 +2973,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/cargo/miningdock)
-"hc" = (
-/obj/machinery/vending/cigarette,
-/obj/machinery/light/directional/east,
-/turf/open/floor/iron,
-/area/station/cargo/miningdock)
 "hd" = (
 /obj/effect/turf_decal/tile/brown/opposingcorners,
 /turf/open/floor/iron,
@@ -3556,6 +3546,13 @@
 	},
 /turf/open/floor/iron,
 /area/station/cargo/miningdock)
+"io" = (
+/obj/machinery/wall_healer/directional/south,
+/obj/structure/chair/sofa/left/brown{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/cargo/miningdock)
 "ip" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
@@ -3803,6 +3800,12 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/science/server)
+"iT" = (
+/obj/structure/chair/sofa/middle/brown{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/cargo/miningdock)
 "iU" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -3953,6 +3956,12 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
+"jo" = (
+/obj/structure/chair/sofa/right/brown{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/cargo/miningdock)
 "jp" = (
 /obj/effect/spawner/random/trash/garbage,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3966,6 +3975,14 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/station/science/lab)
+"jr" = (
+/obj/machinery/requests_console/directional/west{
+	department = "Chapel"
+	},
+/obj/effect/turf_decal/tile/brown/opposingcorners,
+/obj/machinery/vending/cigarette,
+/turf/open/floor/iron,
+/area/station/cargo/miningdock)
 "js" = (
 /obj/structure/tank_dispenser/oxygen{
 	pixel_x = -1;
@@ -4033,6 +4050,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/xenobiology)
+"jx" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron,
+/area/station/cargo/miningdock)
 "jy" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -11122,12 +11143,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
-"BH" = (
-/obj/structure/chair/sofa/middle/brown{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/station/cargo/miningdock)
 "BI" = (
 /obj/structure/cable,
 /obj/structure/lattice,
@@ -14491,13 +14506,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/engineering/main)
-"KI" = (
-/obj/machinery/wall_healer/directional/south,
-/obj/structure/chair/sofa/left/brown{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/station/cargo/miningdock)
 "KJ" = (
 /obj/effect/landmark/start/medical_doctor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -19326,12 +19334,6 @@
 /obj/machinery/meter/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/main)
-"Yh" = (
-/obj/structure/chair/sofa/right/brown{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/station/cargo/miningdock)
 "Yi" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -49898,7 +49900,7 @@ ip
 hA
 xu
 ff
-ch
+jr
 xu
 DX
 Fv
@@ -50922,12 +50924,12 @@ ld
 xu
 ik
 Zt
-em
+ch
 ij
 hl
 hb
 em
-KI
+io
 xu
 CJ
 Df
@@ -51184,7 +51186,7 @@ Do
 Do
 MY
 en
-BH
+iT
 xu
 Wc
 FX
@@ -51439,9 +51441,9 @@ ld
 Do
 hd
 hz
-hc
+jx
 ev
-Yh
+jo
 xu
 DB
 Df
